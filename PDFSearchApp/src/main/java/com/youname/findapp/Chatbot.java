@@ -6,7 +6,7 @@ public class Chatbot {
     private PDFSearcher pdfSearcher;
 
     // Constructor: Initialize PDFSearcher with folder path
-    public Chatbot(String /home/mc/pdf) {
+    public Chatbot(String folderPath) {
         pdfSearcher = new PDFSearcher(/home/mc/pdf);  // Ensure the folderPath is correctly passed
     }
 

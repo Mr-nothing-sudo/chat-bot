@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.yourname.findapp.SearchController">
+    <TextField fx:id="queryField" layoutX="14.0" layoutY="14.0" prefWidth="400.0" promptText="Enter your search query"/>
+    <Button fx:id="searchButton" layoutX="420.0" layoutY="14.0" text="Search"/>
+    <TextArea fx:id="resultArea" layoutX="14.0" layoutY="50.0" prefHeight="300.0" prefWidth="580.0" wrapText="true"/>
+</AnchorPane>
